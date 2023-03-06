@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Formulario</title>
+    </head>
+        <body>
+            <h1>Contato</h1>
+            <form>
+                <b>Nome Completo:</b> 
+                    <input type="text" name="nome" id="txtNome" placeholder="Digite seu nome completo"><br><br>
+                <b>Data de Nascimento</b>:
+                    <input  type="date" name="nascimento" min="01-01-1940"  max="01-01-2040" placeholder="dd/mm/aa"> <br><br>
+                <b>Email:</b> 
+                    <input type="email" required multiple placeholder="email@email.com.br"><br><br> 
+
+            <h2>Comentario</h2>
+            <form>
+                <h3>Deixe seu comentario aqui:</h3>
+                <textarea cols="30" rows="5"></textarea>
+            </form>
+            </form>
+            <form action="form.php" method="POST">
+             <button type="submit"> Enviar </button>   
+            </form>
+
+        </body>
+</html>
